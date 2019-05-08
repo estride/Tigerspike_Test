@@ -10,7 +10,7 @@ Amend appsettings.json and set connection string
   
   After setting the connection string run Update-Database to run Migrations to create database.
   
-  ~ Currently No seed methods are provided to create the database
+  ~ Currently No seed methods are provided to create the records i tables
   
   # Run
   
@@ -28,3 +28,8 @@ Gets list of all movies
 
 ## api/Movie/{{body:id}}
 ### POST
+
+
+# Test
+
+Test Mock contains mock data for Movie database
