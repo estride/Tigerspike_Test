@@ -15,3 +15,16 @@ Amend appsettings.json and set connection string
   # Run
   
   http://localhost:60531/swagger/index.html
+
+
+# Controller Methods
+
+## api/Movie/
+### GET
+Gets list of all movies
+
+## api/Movie/{{title}}
+### GET
+
+## api/Movie/{{body:id}}
+### POST
